@@ -4,8 +4,8 @@ import rpio from 'rpio';
 const PORT = 3050;
 const app = express();
 
-const pin = 17
-const rotation = 0.0015;
+const pin = 11;
+const rotation = 0.0030;
 
 
 app.get('/activate', (_, res) => {
